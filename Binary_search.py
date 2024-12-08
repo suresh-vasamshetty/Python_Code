@@ -1,6 +1,7 @@
 def binary_search(List, n):
     low = 0
     high = len(List) - 1
+    #logic for searching
     while low <= high:
         mid = (low + high) // 2
         if List[mid] == n:
