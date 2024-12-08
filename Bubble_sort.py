@@ -10,4 +10,4 @@ def sort(list):
 list = [3, 6, 2, 7, 9, 1, 8]
 sort(list)
 
-print(list)
+print("sorted numbers", list)
